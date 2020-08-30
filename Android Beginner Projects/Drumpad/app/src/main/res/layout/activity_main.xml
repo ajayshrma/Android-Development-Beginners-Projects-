@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="2"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/dram0"
+                android:layout_weight="1"
+                android:background="#D50000"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <ImageButton
+
+                android:id="@+id/dram1"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/dram3"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <ImageButton
+
+                android:id="@+id/dram4"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageButton
+
+                android:id="@+id/drum0"
+                android:layout_weight="1"
+                android:background="#D50000"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <ImageButton
+
+                android:id="@+id/drum1"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageButton
+
+                android:id="@+id/drum3"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <ImageButton
+                android:id="@+id/drum4"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>
