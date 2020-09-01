@@ -13,7 +13,7 @@ All My Beginner projects while Learning Android Development-😃----
     b.Retrive Data from Firebase</p>
 <p>8.Learn Spanish Number app</p>
 <p>9.Truth & Dare game app</p>
-<p>10.Activity lifecycle</p>
+<p>10.Face Detection App</p>
 
 ## This are some Basics app's for Beginners Who want's to learn Android development
 
